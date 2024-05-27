@@ -1,0 +1,359 @@
+body{
+    background-color:#FBFFEC ;
+    margin: 0;
+    padding: 0;
+}
+p{
+  margin:0;
+}
+
+h1{
+  margin: 15;
+}
+header {
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: #006;
+  }
+  header .inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .logo {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  /* header-navi */
+  
+  header .navi {
+    margin: 0 0 0 auto;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+  }
+  header .navi li {
+    margin: 5px 0 5px 40px;
+  }
+  header .navi li:first-child {
+    margin-left: 0;
+  }
+  header .navi li a {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  header .navi li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* add css  */
+  
+  #header.scroll {
+    position: fixed;
+    background: #ffffff;
+    animation-name: anime;
+    animation-duration: 0.3s;
+  }
+  @keyframes anime {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* layout */
+  .container{
+    margin: 0 auto;
+    width: 500px;
+  }
+  .flexbox{
+    float: right;
+    font-family: serif;
+  }
+  #main{
+    height: 4em;
+    padding: 45px;
+  }  
+  ruby{
+    font-size: 1.49cm;
+    font-family: serif;
+  }
+  rt{
+    font-size: 0.4cm;
+  }
+  .container2{
+    margin: 0 auto;
+    width: 400px;
+  }
+  .aboutme{
+    font-size: 2.5cm;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .container3{
+    margin: 0 auto;
+    width: 660px;
+    display: flex;
+    gap: 32px;
+  }
+  .amountofmoney{
+    background-color: #D9D9D9;
+    padding: 0 1rem;
+  }
+  .Nextamountofmoney{
+    font-size: 0.399cm;
+  }
+  .container4{
+    margin: 0 auto;
+    width: 180px;
+  }
+  .container5{
+    display: flex;
+  }
+  .skillcharacter{
+    padding-top: 65px;
+    font-size: 2.5cm;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .container6{
+    margin: 0 auto;
+    width: 530px;
+  }
+  .portfoliotext1{
+    font-size: 2cm;
+    font-family: serif;
+    margin: 0;
+  }
+  .kojinnseisakutext{
+    text-align: center;
+    font-size: 1cm;
+    font-family: serif;
+  }
+  .sakuhinntennji1{
+    padding-top: 65px;
+    margin: 0 auto;
+    width: 850px;
+    display: flex;
+    gap: 32px;
+  }
+  .sakuhinnsetumei1{
+    width: 165px;
+    background-color: #D9D9D9;
+    padding:0 1rem;
+  }
+  .sakuhinnsetumeitext1{
+    font-size: 0.399cm;
+  }
+  .sakuhinntennji2{
+    padding-top: 65px;
+    margin: 0 auto;
+    width: 850px;
+    display: flex;
+    gap: 32px;
+  }
+  .sakuhinnsetumei2{
+    width: 165px;
+    background-color: #D9D9D9;
+    padding:0 1rem;
+  }
+  .sakuhinnsetumeitext2{
+    font-size: 0.399cm;
+  }
+  .container7{
+    padding-top: 65px;
+    margin: 0 auto;
+    width: 530px;
+  }
+  .teamseisaku{
+    text-align: center;
+    font-size: 1cm;
+    font-family: serif;
+  }
+  .sakuhinntennji3{
+    padding-top: 65px;
+    margin: 0 auto;
+    width: 850px;
+    display: flex;
+    gap: 32px;
+  }
+  .sakuhinnsetumei3{
+    width: 165px;
+    background-color: #D9D9D9;
+    padding:0 1rem;
+  }
+  .sakuhinnsetumeitext3{
+    font-size: 0.399cm;
+  }
+  .sakuhinntennji4{
+    padding-top: 65px;
+    margin: 0 auto;
+    width: 850px;
+    display: flex;
+    gap: 32px;
+  }
+  .sakuhinnsetumei4{
+  width: 165px;
+    background-color: #D9D9D9;
+    padding:0 1rem;
+}
+  .sakuhinnsetumeitext4{
+    font-size: 0.399cm;
+  }
+  .Profile{
+    padding-top: 180px;
+  }
+  .container8{
+    text-align: center;
+    width: 100%;
+  }
+  .Profile2{
+    width: 750px;
+  }
+  .sime{
+    margin: 45px;
+  }
+  .container9{
+    margin: 0 auto;
+    width: 300px;
+  }
+  .sositegennzai{
+    font-size: 1.5cm;
+    border-bottom: solid 2px black;
+    font-family: serif;
+  }
+
+footer{
+  z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: #006;
+}
+footer .inner2{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.logo {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+/* footer-navi */
+footer .navi2 {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  list-style: none;
+}
+footer .navi2 li {
+  margin: 5px 0 5px 40px;
+}
+footer .navi2 li:first-child {
+  margin-left: 0;
+}
+footer .navi2 li a {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .navi2 li a:hover {
+  text-decoration: underline;
+}
+.copy{
+  padding-top: 30px;
+  width: 200px;
+  margin: 0 auto;
+}
+.copytext{
+  color: #ffffff;
+}
+#page_top{
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #006;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  color: #006;
+}
+@media screen and (max-width: 800px) {
+  tr{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sakuhinntennji1{
+    width: 80%;
+  }
+  .sakuhinntennji2{
+    width: 80%;
+  }
+  .sakuhinntennji3{
+    width: 80%;
+  }
+  .sakuhinntennji4{
+    width: 80%;
+  }
+  .container8{
+    width: 10%;
+  }
+}  
+.Githuburl{
+  width: 8em;
+  margin-left: 22%;
+}
